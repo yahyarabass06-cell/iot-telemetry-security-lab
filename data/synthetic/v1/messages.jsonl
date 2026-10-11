@@ -1,0 +1,10 @@
+{"schema_version": 1, "device_id": "sensor-01", "timestamp": "2026-01-01T00:00:00.000000+00:00", "sequence": 1, "temperature_c": 25.0, "vibration_mm_s": 2.0, "signature": "1bc5067c261c6f944cc1cef7e2cf2a955a818e28b14004688d9c216318a863de"}
+{"schema_version": 1, "device_id": "sensor-01", "timestamp": "2026-01-01T00:00:00.000000+00:00", "sequence": 100, "temperature_c": 99, "vibration_mm_s": 2.0, "signature": "0289a5d53e32ed175339662d2e40e83e82211decfaf7eb967af62dabbf91381b"}
+{"schema_version": 1, "device_id": "sensor-01", "timestamp": "2026-01-01T00:00:00.000000+00:00", "sequence": 101, "temperature_c": 25.0, "vibration_mm_s": 2.0, "signature": "0000000000000000000000000000000000000000000000000000000000000000"}
+{"schema_version": 1, "device_id": "unregistered", "timestamp": "2026-01-01T00:00:00.000000+00:00", "sequence": 1, "temperature_c": 25.0, "vibration_mm_s": 2.0, "signature": "3452ad8fc6b0fb3b8bcf30e89756ae9b61dd46756f6e75eecf662cb0fcefa57f"}
+{"schema_version": 1, "device_id": "sensor-01", "timestamp": "2026-01-01T00:00:00.000000+00:00", "sequence": 1, "temperature_c": 25.0, "vibration_mm_s": 2.0, "signature": "1bc5067c261c6f944cc1cef7e2cf2a955a818e28b14004688d9c216318a863de"}
+{"schema_version": 1, "device_id": "sensor-01", "timestamp": "2026-01-01T00:00:00.000000+00:00", "sequence": 0, "temperature_c": 25.0, "vibration_mm_s": 2.0, "signature": "8b940e812cccd30e9a6f41167c334db3aaa0e77aeb2cc974cbd9484a3669d619"}
+{"schema_version": 1, "device_id": "sensor-01", "timestamp": "2025-12-31T23:54:59.000000+00:00", "sequence": 100, "temperature_c": 25.0, "vibration_mm_s": 2.0, "signature": "321219e0bdd1174f33ee660bb055c3481f2dfd89534f5240caefa1101fd2093b"}
+{"schema_version": 1, "device_id": "sensor-01", "timestamp": "2026-01-01T00:00:31.000000+00:00", "sequence": 100, "temperature_c": 25.0, "vibration_mm_s": 2.0, "signature": "4b84052900b190e86a097fa942372801468c6aa0bfb17d1431495daa3e3a3171"}
+{"schema_version": 1, "device_id": "sensor-01", "timestamp": "2026-01-01T00:00:00.000000+00:00", "sequence": 2, "temperature_c": 100.0, "vibration_mm_s": 2.0, "signature": "a8c2952566f778a81a533998b08dceb924587ba41aaa3968a1e80f99c93a97e1"}
+{

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "data_kind": "synthetic",
+  "evaluation_time": "2026-01-01T00:00:00+00:00",
+  "state_requirement": "fresh replay state before the first record",
+  "messages_sha256": "77d12288651c1c74e36720ec4b2afb2e0a8720f60d6f7499320866e8380738b1",
+  "scenarios": [
+    {
+      "scenario": "valid",
+      "line_number": 1,
+      "expected_status": "accepted",
+      "expected_reason": "authenticated_new_message",
+      "expected_measurement_alerts": []
+    },
+    {
+      "scenario": "modified_payload",
+      "line_number": 2,
+      "expected_status": "rejected",
+      "expected_reason": "invalid_signature",
+      "expected_measurement_alerts": []
+    },
+    {
+      "scenario": "incorrect_signature",
+      "line_number": 3,
+      "expected_status": "rejected",
+      "expected_reason": "invalid_signature",
+      "expected_measurement_alerts": []
+    },
+    {
+      "scenario": "unknown_device",
+      "line_number": 4,
+      "expected_status": "rejected",
+      "expected_reason": "unknown_device",
+      "expected_measurement_alerts": []
+    },
+    {
+      "scenario": "repeated_message",
+      "line_number": 5,
+      "expected_status": "rejected",
+      "expected_reason": "replay_or_out_of_order",
+      "expected_measurement_alerts": []
+    },
+    {
+      "scenario": "lower_sequence",
+      "line_number": 6,
+      "expected_status": "rejected",
+      "expected_reason": "replay_or_out_of_order",
+      "expected_measurement_alerts": []
+    },
+    {
+      "scenario": "stale",
+      "line_number": 7,
+      "expected_status": "rejected",
+      "expected_reason": "stale_timestamp",
+      "expected_measurement_alerts": []
+    },
+    {
+      "scenario": "future",
+      "line_number": 8,
+      "expected_status": "rejected",
+      "expected_reason": "future_timestamp",
+      "expected_measurement_alerts": []
+    },
+    {
+      "scenario": "authenticated_unusual_measurement",
+      "line_number": 9,
+      "expected_status": "accepted",
+      "expected_reason": "authenticated_new_message",
+      "expected_measurement_alerts": [
+        "temperature_outside_lab_bounds"
+      ]
+    },
+    {
+      "scenario": "malformed_json",
+      "line_number": 10,
+      "expected_status": "rejected",
+      "expected_reason": "invalid_input",
+      "expected_measurement_alerts": []
+    }
+  ]
+}
