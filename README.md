@@ -126,7 +126,9 @@ python -m pytest -q
 The latest observed local suite passed 50 tests.
 Two separate installed-CLI executions demonstrated persistent replay rejection.
 
-Independent clean-clone installation and remote CI remain pending verification.
+A clean Git clone and non-editable installation in a fresh Python 3.14 environment passed all 50 tests. Two installed-CLI executions reproduced the observed acceptance and persistent replay decisions.
+
+Remote CI remains pending verification.
 
 ## Security Considerations
 
