@@ -128,7 +128,9 @@ Two separate installed-CLI executions demonstrated persistent replay rejection.
 
 A clean Git clone and non-editable installation in a fresh Python 3.14 environment passed all 50 tests. Two installed-CLI executions reproduced the observed acceptance and persistent replay decisions.
 
-Remote CI remains pending verification.
+GitHub Actions passed on Python 3.12 and 3.14 for commit `2c994a6`.
+
+Verified run: [CI results](https://github.com/yahyarabass06-cell/iot-telemetry-security-lab/actions/runs/38174945213).
 
 ## Security Considerations
 
